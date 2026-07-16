@@ -48,7 +48,7 @@ For each micro-segment:
 
 STAGE 5-6 MERGE & REPORT
 Merge all data into single structure
-Sequential Mistral models (mistral-large-latest) generates and writes the report sections:
+Sequential Mistral models (mistral-large-latest) generates and writes the report sections
 
 STAGE 7: OUTPUT
 - HTML cleanup & validation
@@ -89,6 +89,64 @@ The Assemble HTML node combines all sections into a single report
 
 
 ## Content Strategy Generator
+STAGE 1: INPUT COLLECTION
+- Upload Consumer Trend Discovery (P2) and Competitor Monitoring (P3) HTML reports
+- Select the product category for content generation
+- Validate uploaded input files
 
+STAGE 2: DATA EXTRACTION
+- Extract text from uploaded HTML reports
+- Convert reports into plain text for AI processing
+- Prepare structured input for the LLM
 
+STAGE 3: AI CONTENT GENERATION
+- Analyze trend and competitor insights using Mistral (mistral-large-latest)
+- Generate a structured content strategy
+- Produce marketing copy, messaging, and recommendations
+
+STAGE 4: CONTENT PARSING
+- Parse the AI-generated JSON response
+- Validate output structure
+- Handle formatting or parsing errors
+
+STAGE 5: HTML REPORT GENERATION
+- Organize generated content into readable sections
+- Apply consistent formatting and branding
+
+Enhancements Implemented for highly personalized content: 
+
+Brand Voice Optimization
+- Redesigned the AI system prompt to reflect Wayfair's marketing voice
+- Added tone and style guidelines for warm, conversational copy
+- Included Wayfair copy examples to improve content quality
+
+Enhanced User Inputs
+- Added Target Audience input
+- Added Seasonal Context input
+- Added Content Focus selection
+  
 ## Dashboard Builder Agent
+
+STAGE 1: INPUT COLLECTION
+- Select the product category
+- Upload the Consumer Trend Discovery and Competitor Monitoring HTML reports
+- Validate user inputs and start the dashboard generation workflow
+
+STAGE 2: DASHBOARD TEMPLATE
+- Prepare the dashboard layout for data population
+
+STAGE 3: REPORT EXTRACTION
+- Extract the uploaded HTML reports
+- Identify and separate each report automatically
+- Prepare the report contents for parsing
+
+STAGE 4: DATA PARSING
+- Parse both reports using JavaScript pattern matching
+- Extract key business metrics, market trends, pricing, suppliers, segments, and recommendations
+- Convert extracted information into structured datasets
+
+STAGE 5: DASHBOARD GENERATION
+- Merge trend and competitor insights into a unified dashboard
+- Replace template placeholders with real business data
+- Generate tables, summaries, and recommendation sections
+- Build the final interactive HTML dashboard
