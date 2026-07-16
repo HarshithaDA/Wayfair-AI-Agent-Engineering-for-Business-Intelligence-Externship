@@ -1,5 +1,3 @@
-This repository contains all of my work completed during the **Wayfair AI Agent Engineering for Business Intelligence Externship**.
-
 I designed and built multiple AI agents using **n8n**, integrating LLMs, web scraping, structured data processing, prompt engineering, and automated report generation.
 
 - Consumer Trend Discovery AI Agent - Discovering emerging consumer trends from multiple sources and produces structured trend reports
