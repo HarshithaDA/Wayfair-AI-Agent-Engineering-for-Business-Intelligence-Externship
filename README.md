@@ -1,15 +1,15 @@
 I designed and built multiple AI agents using **n8n**, integrating LLMs, web scraping, structured data processing, prompt engineering, and automated report generation.
 
-- Consumer Trend Discovery AI Agent
+- Consumer Trend Discovery AI Agent:
 Discovers emerging consumer design trends by analyzing products, social media, and market data to generate AI-powered market intelligence reports.
 
-- Competitor Monitoring AI Agent
-Collects and compares competitor product data across major retailers to uncover pricing strategies, market gaps, and actionable business insights.
+- Competitor Monitoring AI Agent:
+Collects and compares competitor product data across major retailers to get pricing strategies, market gaps, and actionable business insights.
 
-- AI Insights & Content Agent
+- AI Insights & Content Agent:
 Transforms market trends and competitor intelligence into personalized, Wayfair-branded marketing strategies and content recommendations using AI.
 
-- Dashboard Builder Agent
+- Dashboard Builder Agent:
 Combines trend and competitor reports into a single interactive Business Intelligence dashboard for executive decision-making and market analysis.
 
 ## Consumer Trend Discovery AI Agent:
